@@ -2,7 +2,7 @@ name: SAP BTP Auto Login (多账号版)
 
 on:
   schedule:
-    - cron: "23 22 */9 * *"   # 每9天 UTC 22点23分
+    - cron: "23 22 */7 * *"   # 每7天 UTC 22点23分
   workflow_dispatch:
 
 jobs:
